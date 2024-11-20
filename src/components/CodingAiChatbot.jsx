@@ -236,7 +236,7 @@ const CodingAIChatbot = () => {
 
     return (
       <div className="flex mb-4">
-        <div className="bg-gray-100 chthtm text-white rounded-lg py-2 px-4 max-w-[80%] ">
+        <div className="chthtm text-white rounded-lg py-2 px-4 max-w-[80%] ">
           {parsedContent.map((part, index) => 
             part.type === 'code' ? (
               <div key={index} className="my-2 rounded-lg text-white overflow-hidden relative">
@@ -285,7 +285,7 @@ const CodingAIChatbot = () => {
       </div>
 
       <div className="flex flex-col h-[90vh] md:h-[93vh]">
-        <div className="flex-1 bghf overflow-y-auto overflow-hidden px-4 py-6 bg-gray-50">
+        <div className="flex-1 bghf overflow-y-auto overflow-hidden px-4 py-6">
           {messages.map((msg, index) => (
             <motion.div
               key={index}
